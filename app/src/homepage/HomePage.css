@@ -1,0 +1,48 @@
+.homeWrapper{
+    background-image: url("../../public/rubiks.gif");
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+
+}
+
+.projectTitle h1 {
+    font-family: Bungee;
+    font-size: 72px;
+    text-align: center;
+    margin: 0;
+    padding-top: 15%;
+}
+
+.projectTitle {
+    height: 55%;
+}
+
+.playerOptions {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 45%;
+}
+
+.playerOptions button {
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+/* .playerOptions button:hover {
+    background-color: #eee;
+} */
+
+.solo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+svg {
+    max-height: 100%;
+    min-height: 100%;
+}
